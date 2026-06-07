@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{ 
+  font-family: "Raleway", sans-serif; 
+  font-optical-sizing: auto; 
+  font-weight: weight; 
+  font-style:normal
+ }
+
+
+
+
+.Bienvenue{
+  position: relative; 
+  width: 100%;
+  min-height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.Bienvenue-text{
+  background-image: linear-gradient(to right, grey, red );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color:black;
+  
+}
+
+       
+h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+}
+
+
+
+.section {
+  padding: 100px;
+  margin-bottom: 100px;
+}
+
+.boxed {
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.flex {
+        display: flex;
+    gap: 40px; 
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.gap20{
+  gap:20px; 
+}
+
+.w40 { 
+  width: 40%;
+  color:aliceblue;
+  display: block; 
+  text-align: left;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.w60 {
+ width: 60%;
+  background-image: linear-gradient(to right, grey, red );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  line-height: 1.5em;
+  font-size: 1.5rem;
+  margin-top: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+        
+.compet{
+  width: 40%;
+  color:aliceblue;
+  display: block; 
+  text-align: center;
+  margin-top: 0;
+  margin:auto;
+}
+
+
+.w25  {
+ width: 14%;
+color:aliceblue;
+height: 25%;
+
+
+}
+
+.w32 {
+  width: calc(50% - 20px);
+  max-width: 350px;
+  flex-shrink: 0; 
+}
+
+.space-between{
+  justify-content: flex-start;
+}
+
+
+
+.skill{
+background-color: #333;
+border-radius: 15px;
+box-sizing: border-box;
+
+}
+
+
+.skill img{  
+  width: 100px;
+}
+
+h2 {
+color:aliceblue;
+
+
+}
+
+h3{
+color:aliceblue;
+}
+
+
+.projets {
+  height: auto;
+  aspect-ratio: 1/1;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.projets h3{
+  position:absolute;
+  top:50%;
+  left: 50%; 
+  transform:translate(-50%, -50%);  
+  font-size: 1.3rem;
+  width: 90%;
+  max-width: 90%;
+  padding: 15px;
+  margin: 0;
+  opacity: 0;
+  transition:.4s ease;
+  text-align: center;
+  line-height: 1.4;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  box-sizing: border-box;
+}
+
+.projets a{
+display: block;
+width: 100%;
+height: 100%;
+text-decoration: none;
+color: #fff;  
+}
+
+.projets img{
+width: 100%;
+height: 100%;
+object-fit:cover;
+filter:brightness(40%);
+transition:.4s ease;
+border-radius: 10px;
+}
+
+.projets:hover img{
+  filter:brightness(60%)
+}
+
+
+.projets:hover h3{
+  opacity: 1;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-items {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+    border:2px dashed #fff;
+    border-radius:15px;
+    padding:30px;
+    box-sizing: border-box;
+}
+
+.icon{
+  display:block;
+  color: aliceblue;
+}
+
+.label{
+  display:block;
+  color:aliceblue;
+  width: auto;
+  height:auto;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.value{
+  display:block;
+    color: aliceblue;
+    width: auto;
+    height: auto;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 0 0 auto;
+}
+
+.skill {
+  background-color: #333;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  width: 150px;
+}
+
+.skill img {  
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+h2 {
+  color: aliceblue;
+  text-align: center;
+  margin: 10% 0;
+}
+.skill-item .skill {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-item:hover .skill {
+  transform: scale(1.15);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.15);
+}
+
+.skill-item:hover .skill img {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+}
+
